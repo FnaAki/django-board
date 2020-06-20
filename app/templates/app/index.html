@@ -1,0 +1,8 @@
+{% extends "app/base.html" %}
+
+{% block content %}
+
+{% for post in post_data %}
+<p>{{ post.text }}</p>
+{% endfor %}
+{% endblock %}
